@@ -27,7 +27,7 @@ pip install VideoDataAnimation
 
 from VideoDataAnimation import VideoDataAnimation
 
-# Initialize the VideoDataAnimation with your video and CSV file paths
+**Initialize the VideoDataAnimation with your video and CSV file paths**
 vda = VideoDataAnimation(
     csv_path='./comp_APP.csv',
     video_path='./comp_APP.avi',
@@ -36,15 +36,15 @@ vda = VideoDataAnimation(
     window_size=None
 )
 
-# Load the data, set up video capture, and prepare the plot
+**Load the data, set up video capture, and prepare the plot**
 vda.load_data()
 vda.setup_video_capture()
 vda.setup_plot()
 
-# Save the animation to an MP4 file, adjusting the playback speed with the slow_factor
+**Save the animation to an MP4 file, adjusting the playback speed with the slow_factor**
 vda.save_animation('mp4', slow_factor=2)
 
-# Release resources after saving the animation
+**Release resources after saving the animation**
 vda.release_resources()
 
 For questions or support, please contact m.bendra22@gmail.com
