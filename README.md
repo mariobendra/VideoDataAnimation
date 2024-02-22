@@ -37,14 +37,17 @@ vda = VideoDataAnimation(
 )
 
 **Load the data, set up video capture, and prepare the plot**
+
 vda.load_data()
 vda.setup_video_capture()
 vda.setup_plot()
 
 **Save the animation to an MP4 file, adjusting the playback speed with the slow_factor**
+
 vda.save_animation('mp4', slow_factor=2)
 
 **Release resources after saving the animation**
+
 vda.release_resources()
 
 For questions or support, please contact m.bendra22@gmail.com

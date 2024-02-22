@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name="VideoDataAnimation",
-    version="0.3",
+    version="0.3.1",
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
